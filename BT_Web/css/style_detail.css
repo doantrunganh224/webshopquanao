@@ -1,0 +1,125 @@
+/* Product */
+
+/* General Styling for Product Display */
+.product-display {
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+}
+
+/* Left section for main image */
+.product-content__left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content__left-main-img {
+    width: 80%;
+    padding-right: 20px;
+}
+
+.product-content__left-main-img img {
+    margin-left: 45px;
+    width: 80%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Right section for product details */
+.product-content__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-content__right-product-name h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.product-content__right-product-name p {
+    color: #575050;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.product-content__right-product-price {
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-content__right-product-quantity,
+.product-content__right-product-category {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Quantity Selector and Add to Cart Button */
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.quantity input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    appearance: textfield; /* Removes spinner for WebKit browsers */
+}
+.themgiohang {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #f0ffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.themgiohang:hover {
+    background-color: #aba3a3;
+    color: #000;
+}
+
+.product-content__right-product-icon .item {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.product-content__right-product-icon .item:hover {
+    text-decoration: underline;
+}
+
+.quantity p{
+    display: flex;
+    align-self: center;
+}
+
+
+.quantity submit:hover p{
+    color: #000000;
+}
+
+.product-content__right-product-icon .item{
+    display: flex;
+    gap: 10px;
+}

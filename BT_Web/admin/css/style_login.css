@@ -1,0 +1,44 @@
+body{
+    background-color: #C6E7FF;
+    height: 100vh;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.warpper{
+    
+    width: 500px;
+    height: auto;
+    text-align: center;
+   
+}
+label {
+            display: block;
+            margin-top: 8px;
+            font-weight: bold;
+
+        }
+input[type="text"] {
+        width: 220px;
+        padding: 4px;
+        }
+
+input[type="password"] {
+        width: 220px;
+        padding: 4px;
+        }
+input[type="submit"] {
+            padding: 5px 10px;
+            font-size: 16px;
+            background-color: #FFF1DB;
+            border: 1px solid black;
+            cursor: pointer;
+            margin-top: 14px;
+            width: 70%px;
+        }
+@media screen and (min-width :600px){
+    .warpper{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
